@@ -1,0 +1,75 @@
+.delete-button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.add-button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: darkgreen;
+}
+
+.app-header {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #282c34;
+}
+
+.app-footer {
+    font-size: 0.75em;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    color: #282c34;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.done-button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.done-button:hover {
+    background-color: darkblue;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.App-header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

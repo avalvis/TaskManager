@@ -1,0 +1,78 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.task-input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px; /* increased spacing */
+}
+
+.task-input-section input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 20px; /* increased spacing */
+}
+
+.task-input-section button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: green;
+  cursor: pointer;
+}
+
+.task-input-section button:hover {
+  background-color: darkgreen;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px; /* increased padding */
+  background-color: #fff;
+  margin-bottom: 20px; /* increased spacing */
+  border-radius: 5px;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px; /* added spacing */
+}
+
+.task-item button.delete-button {
+  background-color: red;
+}
+
+.task-item button.delete-button:hover {
+  background-color: darkred;
+}
+
+.task-item button.done-button {
+  background-color: blue;
+}
+
+.task-item button.done-button:hover {
+  background-color: darkblue;
+}
+
+.task-item .task-text {
+  flex: 1;
+  margin-right: 30px; /* increased spacing */
+}

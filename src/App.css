@@ -1,38 +1,70 @@
 .App {
-  text-align: center;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 60px 0;
+    box-sizing: border-box;
+    color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-header {
+    font-size: 2.5em;
+    color: #000;
+    margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-footer {
+    font-size: 0.75em;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-button, .done-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.add-button {
+    background-color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-button:hover {
+    background-color: darkgreen;
+}
+
+.done-button {
+    background-color: blue;
+}
+
+.done-button:hover {
+    background-color: darkblue;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.task-text {
+    margin-right: 20px;
 }
