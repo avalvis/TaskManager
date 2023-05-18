@@ -19,7 +19,7 @@ Step by step guide to running the development setup.
 
 1. Clone the repository: 
 
-git clone https://github.com/your-username/task-manager.git
+git clone https://github.com/avalvis/task-manager.git
 
 2. Go to the cloned directory (e.g., `cd task-manager`).
 
